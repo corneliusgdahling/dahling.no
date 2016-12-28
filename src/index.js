@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
-import { Router, Route, IndexRoute, Link, browserHistory } from 'react-router'
+import React from 'react';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import { render } from 'react-dom';
 import App from './App';
 import './index.css';
@@ -12,7 +11,6 @@ addLocaleData(noLocaleData);
 
   render(
     (
-      // <App />), document.getElementById('root')
       <IntlProvider locale="no">
         <Router history={browserHistory}>
           <Route path="/" component={App}>
