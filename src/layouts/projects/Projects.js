@@ -4,7 +4,10 @@ export default class Projects extends Component{
 
   render(){
     return(
-      <h2>Projects page</h2>
+      <div>
+        <h2>Projects page</h2>
+        {console.log("Projects")}
+      </div>
     );
   }
 }

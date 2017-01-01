@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-export default class CV extends Component{
+export default class Code extends Component{
 
   render(){
     return(
       <div>
-        <h2>CV page</h2>
-        {console.log("CV")}
+        <h2>Code page</h2>
+        {console.log("Code")}
       </div>
     );
   }
