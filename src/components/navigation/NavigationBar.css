@@ -62,14 +62,3 @@ Text color of the nav items
     background-color: black;
   }
 }
-
-
-/*
-Border around entire navbar when accessing an item in the navbar
-*/
-/*.navbar-default:hover{
-  background-color: #263961;
-  -moz-box-shadow:    inset 0 0 10px #000000;
- -webkit-box-shadow: inset 0 0 10px #000000;
- box-shadow:         inset 0 0 10px #000000;
-}*/
