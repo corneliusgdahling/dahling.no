@@ -48,6 +48,9 @@ Text color of the nav items
 }
 
 
+/*
+Navbar CSS for screens with a max-width of 1200px
+*/
 @media (max-width: 1200px){
   .navbar-default .navbar-toggle{
     border-color: white;
