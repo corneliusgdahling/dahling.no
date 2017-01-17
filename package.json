@@ -4,12 +4,10 @@
   "private": true,
   "devDependencies": {
     "babel-cli": "^6.18.0",
-    "fly": "^1.4.1",
     "react-scripts": "0.8.4"
   },
   "dependencies": {
     "express": "^4.14.0",
-    "flightplan": "^0.6.15",
     "react": "^15.4.1",
     "react-bootstrap": "^0.30.7",
     "react-dom": "^15.4.1",
