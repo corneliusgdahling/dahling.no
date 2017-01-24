@@ -10,17 +10,22 @@ Remove border and background color of navigation bar
 /*
 Border for the font awesome home icon
 */
-.navbar-default .navbar-brand:hover{
-  color: #ffffff;
-  -moz-box-shadow:    inset 0 0 10px #000000;
- -webkit-box-shadow: inset 0 0 10px #000000;
- box-shadow:         inset 0 0 10px #000000;
+.navbar-default{
+  color: #FFFFFF;
+}
+
+/*.fa:hover + .navText, .fa:hover, .navText:hover, .navText:hover ~ .fa{
+  color: #ababab;
+}*/
+
+
+.navItem:hover *, .navbar-header:hover *{
+  color: #ababab;
 }
 
 
-
 /*
-CSS for font awesom icons
+CSS for font awesome icons
 */
 .fa-home, .fa-code, .fa-github, .fa-file-pdf-o {
   color: white;
@@ -33,11 +38,11 @@ CSS for font awesom icons
 Background of active navitem with border
 */
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-    background-color: #263961;
-    -moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 10px #000000;
+  background-color: transparent;
+  box-shadow: 0px 12px 3px -11px #FFFFFF;
+  padding-bottom: 8px;
 }
+
 
 
 /*
