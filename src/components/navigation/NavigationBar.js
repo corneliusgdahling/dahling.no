@@ -20,13 +20,13 @@ export default class NavigationBar extends Component{
         <Navbar.Collapse>
           <Nav pullRight>
             <LinkContainer to="/code">
-              <NavItem className="code" eventKey={1}><FontAwesome name="code" /> Code</NavItem>
+              <NavItem className="navItem" eventKey={1}><FontAwesome name="code" /> <h8 className="navText">Code</h8></NavItem>
             </LinkContainer>
             <LinkContainer to="/projects">
-              <NavItem eventKey={2}><FontAwesome name="github" /> Projects</NavItem>
+              <NavItem className="navItem" eventKey={2}><FontAwesome name="github" /> <h8 className="navText">Projects</h8></NavItem>
             </LinkContainer>
             <LinkContainer to="/cv">
-              <NavItem eventKey={3}><FontAwesome name="file-pdf-o" /> CV</NavItem>
+              <NavItem className="navItem" eventKey={3}><FontAwesome name="file-pdf-o" /> <h8 className="navText">CV</h8></NavItem>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
