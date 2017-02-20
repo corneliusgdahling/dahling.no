@@ -1,0 +1,12 @@
+#not-found-title{
+  padding-top: 120px;
+  font-size: 30pt;
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px){
+  #not-found-title{
+    font-size: 20pt;
+    padding-top: 80px;
+  }
+}
