@@ -6,6 +6,7 @@ import Home from './layouts/home/Home';
 import Code from './layouts/code/Code';
 import Projects from './layouts/projects/Projects';
 import CV from './layouts/cv/CV';
+import NotFound from './layouts/not-found/NotFound';
 import './index.css';
 import { IntlProvider, addLocaleData } from 'react-intl';
 import noLocaleData from 'react-intl/locale-data/no';
@@ -22,6 +23,7 @@ addLocaleData(noLocaleData);
             <Route path="code" component={Code} name="Code" />
             <Route path="projects" component={Projects} name="Projects" />
             <Route path="cv" component={CV} name="CV" />
+            <Route path="*" component={NotFound} name="404" />
           </Route>
         </Router>
       </IntlProvider>
