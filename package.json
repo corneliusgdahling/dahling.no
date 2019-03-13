@@ -4,6 +4,7 @@
   "private": true,
   "devDependencies": {
     "babel-cli": "^6.18.0",
+    "firebase-tools": "^6.5.0",
     "react-scripts": "0.8.4"
   },
   "dependencies": {
